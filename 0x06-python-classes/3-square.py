@@ -7,6 +7,8 @@ class Square:
         Attributes:
         size (int): size of square
     """
+    __size = 0
+
     def __init___(self, size=0):
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
