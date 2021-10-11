@@ -4,7 +4,7 @@
 '''
 
 
-class BaseGeometry:
+class BaseGeometry():
     '''
         basegeometry class
     '''
@@ -19,7 +19,7 @@ class BaseGeometry:
             method to validate value
             raise TypeError and Valueerror
         '''
-        if value =! int:
+        if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
