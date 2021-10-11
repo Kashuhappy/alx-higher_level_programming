@@ -10,8 +10,10 @@ def inherits_from(obj, a_class):
         args:
             obj: object
             a_class: class to check
+        Return:
+            True or False
     '''
     if type(obj) is not a_class and issubclass(type(obj), a_class):
         return True
     else:
-         return False
+        return False
