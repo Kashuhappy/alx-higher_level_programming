@@ -4,16 +4,16 @@
 '''
 
 
-def is_same_class(obj, a-class):
+def is_same_class(obj, a_class):
     '''
         check if object belongs to a class
         args:
             obj:object
-            a-class: class to check
+            a_class: class to check
         Return:
             True or False
     '''
-    if type(obj) is a-class:
+    if type(obj) is a_class:
         return True
     else:
         return False
