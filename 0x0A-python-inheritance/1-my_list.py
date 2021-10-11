@@ -4,7 +4,7 @@
 '''
 
 
-class MyList(List):
+class MyList(list):
     '''
         print a list sorted
     '''
